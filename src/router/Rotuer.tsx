@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import GlobalStyles from "../common/GlobalStyles";
 import styled from "styled-components";

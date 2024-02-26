@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 
 const SideContainer = styled.aside`
   width: 15%;
-  min-width: 250px;
+  min-width: 150px;
   height: 100vh;
   border: 1px solid #00000060;
   border-top: none;
@@ -23,8 +23,8 @@ type MenuProps = {
 const SideBarMenu = styled.li<MenuProps>`
   width: 100%;
   padding: 1rem 3rem;
-  text-align: center;
   font-weight: 600;
+  text-align: center;
   cursor: pointer;
   ${(props) => {
     if (

@@ -1,4 +1,3 @@
-import React from "react";
 import Rotuer from "./router/Rotuer";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
